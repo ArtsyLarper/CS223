@@ -1,0 +1,39 @@
+#1 levels of complexity, least to most
+2/n
+n^0.5
+37
+n log(log(n))
+n
+n log n
+log n^2n
+n^1.5
+N^2
+2^n/2
+(logn)^2n
+n^2logn
+2^n
+
+
+#2
+
+
+#3  There should be 82 nodes in a full trinary tree with a depth of 5
+
+#4
+
+#5
+int a, b, c;
+a=0;
+b=1;
+cout<<"1";
+While (true)
+{
+c=a+b;
+cout<<c;
+a=b;
+b=c;
+}
+
+
+
+#6
