@@ -14,12 +14,26 @@ n^2logn
 2^n
 
 
-#2
+#2 a. 175
+   b. 164
+   c. 4375
+   d. too long to accurately calculate
 
 
 #3  There should be 82 nodes in a full trinary tree with a depth of 5
 
-#4
+#4 int travel (Node* position)
+{
+ int l, r, t;
+ l = travel (Node* left);
+ r = travel (Node* right);
+ if (l>r)
+  { t=l;}
+ else
+ { t=r;}
+ t++;
+ return t;
+}
 
 #5
 int a, b, c;
@@ -37,3 +51,10 @@ b=c;
 
 
 #6
+Git is a repository for sharing code between programmers working on a project together and also for showcasing your code
+
+#7
+GDB is the GNU debugger and allows us to step through the code and see what it was trying to do step by step before it crashed and even while it's running. Make is a build system, 
+Cmake creates build systems
+
+#8 argc is the number of command line arguments we're passing to the program, and argv is a pointer array pointing to the arguments we're passing
